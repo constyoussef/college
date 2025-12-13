@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.youssef.SailingTest" time="0.495" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/youssef/Lynn/college/testing-task/testing/target/test-classes:/home/youssef/Lynn/college/testing-task/testing/target/classes:/home/youssef/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/youssef/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/youssef/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/youssef/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/youssef/Lynn/college/testing-task/testing/target/surefire/surefirebooter-20251208183726589_3.jar /home/youssef/Lynn/college/testing-task/testing/target/surefire 2025-12-08T18-37-26_475-jvmRun1 surefire-20251208183726589_1tmp surefire_0-20251208183726589_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/youssef/Lynn/college/testing-task/testing/target/test-classes:/home/youssef/Lynn/college/testing-task/testing/target/classes:/home/youssef/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/home/youssef/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/youssef/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/youssef/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/youssef"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/youssef/Lynn/college/testing-task/testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/youssef/Lynn/college/testing-task/testing/target/surefire/surefirebooter-20251208183726589_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+10-Ubuntu-124.04"/>
+    <property name="user.name" value="youssef"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.14.0-36-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/youssef/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/home/youssef/Lynn/college/testing-task/testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="21.0.9+10-Ubuntu-124.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testAvailableValid[EP1, true, false, 2, true, Weekend, good wind, not July](1)" classname="com.youssef.SailingTest" time="0.01">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testAvailableValid[EP2, false, true, 3, true, Weekday in July, good wind](2)" classname="com.youssef.SailingTest" time="0.0"/>
+  <testcase name="testAvailableValid[EP3, false, false, 4, false, Weekday, not July, good wind](3)" classname="com.youssef.SailingTest" time="0.0"/>
+  <testcase name="testAvailableValid[EP4, true, true, 5, false, Weekend in July, wind too strong](4)" classname="com.youssef.SailingTest" time="0.001"/>
+  <testcase name="testAvailableValid[EP5, true, false, 8, false, Weekend, wind too strong](5)" classname="com.youssef.SailingTest" time="0.001"/>
+  <testcase name="testAvailableValid[EP6, false, true, 12, false, Weekday in July, wind too strong](6)" classname="com.youssef.SailingTest" time="0.0"/>
+  <testcase name="testAvailableValid[EP7, true, true, 0, true, Weekend in July, no wind](7)" classname="com.youssef.SailingTest" time="0.0"/>
+  <testcase name="testEP8" classname="com.youssef.SailingTest" time="0.003"/>
+  <testcase name="testEP9" classname="com.youssef.SailingTest" time="0.001"/>
+</testsuite>

@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 08 18:37:27 EET 2025</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (71 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP1, true, false, 2, true, Weekend, good wind, not July</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP3, false, false, 4, false, Weekday, not July, good wind</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testEP8()'><b>testEP8</b><br>Test class: com.youssef.SailingTest</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testEP9()'><b>testEP9</b><br>Test class: com.youssef.SailingTest</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP2, false, true, 3, true, Weekday in July, good wind</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP4, true, true, 5, false, Weekend in July, wind too strong</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP7, true, true, 0, true, Weekend in July, no wind</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP5, true, false, 8, false, Weekend, wind too strong</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+<tr>
+<td title='com.youssef.SailingTest.testAvailableValid()'><b>testAvailableValid</b><br>Test class: com.youssef.SailingTest<br>Parameters: EP6, false, true, 12, false, Weekday in July, wind too strong</td>
+<td></td>
+<td>0</td>
+<td>com.youssef.SailingTest@6b53e23f</td></tr>
+</table><p>
+</body>
+</html>
