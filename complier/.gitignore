@@ -1,0 +1,9 @@
+# Binaries
+minic
+
+# Generated files
+test_out.js
+out.js
+
+# OS files
+.DS_Store
