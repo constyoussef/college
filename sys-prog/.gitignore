@@ -1,0 +1,7 @@
+# Binaries
+server
+client
+*.o
+
+# OS junk
+.DS_Store
