@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data & Models
+data/raw_heart_disease.csv
+data/processed/
+models/*.joblib
+!models/Optimized_Random_Forest.joblib
+!models/preprocessor.joblib
+
+# OS
+.DS_Store
+
+# Frontend (Nested)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
